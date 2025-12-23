@@ -26,6 +26,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
   process.env.FRONTEND_URL,
+  "https://chatbot-ai-frontend-xi.vercel.app",
 ].filter(Boolean);
 
 app.use(
